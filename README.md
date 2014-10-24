@@ -1,5 +1,7 @@
 # scale-number-range
 
+[![Build Status](https://travis-ci.org/nickpoorman/scale-number-range.svg?branch=master)](https://travis-ci.org/nickpoorman/scale-number-range)
+
 scale a number from one range to another
 
 ```
