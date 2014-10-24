@@ -1,0 +1,31 @@
+{
+  "name": "scale-number-range",
+  "version": "1.0.0",
+  "description": "scale a number from one range to another",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nickpoorman/scale-number-range.git"
+  },
+  "keywords": [
+    "scale",
+    "number",
+    "range"
+  ],
+  "author": "Nick Poorman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickpoorman/scale-number-range/issues"
+  },
+  "homepage": "https://github.com/nickpoorman/scale-number-range",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.1.0"
+  }
+}
