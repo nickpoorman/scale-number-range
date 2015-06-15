@@ -1,6 +1,6 @@
 {
   "name": "scale-number-range",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "scale a number from one range to another",
   "main": "index.js",
   "directories": {
