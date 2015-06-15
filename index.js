@@ -11,7 +11,7 @@ module.exports = function scaleNumberRange(number, oldMin, oldMax, newMin, newMa
     }
     if (number > oldMax) {
       debug('ERROR OOB - scale(%d, %d, %d, %d, %d)', number, oldMin, oldMax, newMin, newMax);
-      throw new Error('number is less than oldMin');
+      throw new Error('number is greater than oldMax');
     }
   }
   return (((newMax - newMin) * (number - oldMin)) / (oldMax - oldMin)) + newMin;
