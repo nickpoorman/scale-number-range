@@ -4,13 +4,13 @@
 
 scale a number from one range to another
 
-## install
+## Install
 
 ```javascript
 npm install scale-number-range
 ```
 
-## example
+## Example
 
 ```javascript
 var scale = require('scale-number-range');
@@ -19,6 +19,15 @@ var num = scale(.25, 0, 1, 0, 100);
 // num is now 25
 ```
 
+If your `newMax` is higher than your `newMin`, it will correctly
+scale the number in the opposite direction. 
+
+```
+> scale(3,0,100,0,1000);
+30
+> scale(3,0,100,1000,0);
+970
+```
 
 # License
 
